@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieTickets.WebApp", "MovieTickets.web\MovieTickets.WebApp.csproj", "{1F3AEC7A-B187-4FC9-9667-7BE935D57538}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84BE5D25-621D-4E4D-9F20-7752AFD54B7F} = {84BE5D25-621D-4E4D-9F20-7752AFD54B7F}
+		{D75766ED-76C7-4DF8-AC95-793C28BF6394} = {D75766ED-76C7-4DF8-AC95-793C28BF6394}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{93DAB068-8442-4ACC-9198-87E9F04B36C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B95F5816-5BE1-4E70-8C36-2B3AED1E7DAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AAA0BEE6-507A-4A6B-80C6-E8E03271D33B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieTickets.Entities", "MovieTickets.Entities\MovieTickets.Entities.csproj", "{8BBC26AB-E7AC-4B70-9988-8F89F17A250F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39056970-2C9C-4257-B28A-715D59C88411} = {39056970-2C9C-4257-B28A-715D59C88411}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieTickets.BusinessLogic", "MovieTickets.BusinessLogic\MovieTickets.BusinessLogic.csproj", "{84BE5D25-621D-4E4D-9F20-7752AFD54B7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D75766ED-76C7-4DF8-AC95-793C28BF6394} = {D75766ED-76C7-4DF8-AC95-793C28BF6394}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieTickets.DataAccess", "MovieTickets.DataAccess\MovieTickets.DataAccess.csproj", "{D75766ED-76C7-4DF8-AC95-793C28BF6394}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39056970-2C9C-4257-B28A-715D59C88411} = {39056970-2C9C-4257-B28A-715D59C88411}
+		{8BBC26AB-E7AC-4B70-9988-8F89F17A250F} = {8BBC26AB-E7AC-4B70-9988-8F89F17A250F}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieTickets.Common", "MovieTickets.Common\MovieTickets.Common.csproj", "{39056970-2C9C-4257-B28A-715D59C88411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3AEC7A-B187-4FC9-9667-7BE935D57538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3AEC7A-B187-4FC9-9667-7BE935D57538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3AEC7A-B187-4FC9-9667-7BE935D57538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3AEC7A-B187-4FC9-9667-7BE935D57538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBC26AB-E7AC-4B70-9988-8F89F17A250F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBC26AB-E7AC-4B70-9988-8F89F17A250F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBC26AB-E7AC-4B70-9988-8F89F17A250F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBC26AB-E7AC-4B70-9988-8F89F17A250F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84BE5D25-621D-4E4D-9F20-7752AFD54B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BE5D25-621D-4E4D-9F20-7752AFD54B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BE5D25-621D-4E4D-9F20-7752AFD54B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BE5D25-621D-4E4D-9F20-7752AFD54B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75766ED-76C7-4DF8-AC95-793C28BF6394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75766ED-76C7-4DF8-AC95-793C28BF6394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75766ED-76C7-4DF8-AC95-793C28BF6394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75766ED-76C7-4DF8-AC95-793C28BF6394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39056970-2C9C-4257-B28A-715D59C88411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39056970-2C9C-4257-B28A-715D59C88411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39056970-2C9C-4257-B28A-715D59C88411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39056970-2C9C-4257-B28A-715D59C88411}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F3AEC7A-B187-4FC9-9667-7BE935D57538} = {93DAB068-8442-4ACC-9198-87E9F04B36C5}
+		{8BBC26AB-E7AC-4B70-9988-8F89F17A250F} = {B95F5816-5BE1-4E70-8C36-2B3AED1E7DAD}
+		{84BE5D25-621D-4E4D-9F20-7752AFD54B7F} = {B95F5816-5BE1-4E70-8C36-2B3AED1E7DAD}
+		{D75766ED-76C7-4DF8-AC95-793C28BF6394} = {AAA0BEE6-507A-4A6B-80C6-E8E03271D33B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E325103-8510-4559-9816-40FC261D75CA}
+	EndGlobalSection
+EndGlobal
